@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIStatic\API.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Comment.cs">
       <DependentUpon>ModelPostComment.tt</DependentUpon>
@@ -69,13 +70,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelPostComment.edmx</DependentUpon>
     </Compile>
+    <Compile Include="PartialComment.cs" />
+    <Compile Include="PartialPost.cs" />
     <Compile Include="Post.cs">
       <DependentUpon>ModelPostComment.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="APIStatic\" />
     <Folder Include="API\" />
   </ItemGroup>
   <ItemGroup>
