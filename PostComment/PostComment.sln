@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWCF", "HostWCF\HostWCF.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientPostComment", "ClientPostComment\ClientPostComment.csproj", "{AB692E78-6F99-4ACE-9590-D5985EC5BF52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.Net_Core_Razor", "ASP.Net_Core_Razor\ASP.Net_Core_Razor.csproj", "{444FDAC1-A9C4-4947-BDD5-983E9D5A801A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AB692E78-6F99-4ACE-9590-D5985EC5BF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB692E78-6F99-4ACE-9590-D5985EC5BF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB692E78-6F99-4ACE-9590-D5985EC5BF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444FDAC1-A9C4-4947-BDD5-983E9D5A801A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444FDAC1-A9C4-4947-BDD5-983E9D5A801A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444FDAC1-A9C4-4947-BDD5-983E9D5A801A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444FDAC1-A9C4-4947-BDD5-983E9D5A801A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
